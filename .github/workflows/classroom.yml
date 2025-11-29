@@ -43,5 +43,5 @@ jobs:
       run: |
         # Data generation and notebook execution are now handled by pytest fixture
         # Run the correct test script (downloaded as test_assignment.py)
-        pytest .github/tests/test_assignment.py -v
+        pytest .github/test/test_assignment.py -v
 
